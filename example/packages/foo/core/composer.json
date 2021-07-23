@@ -1,0 +1,9 @@
+{
+    "name": "foo/core",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Foo\\Core\\": "src/"
+        }
+    }
+}

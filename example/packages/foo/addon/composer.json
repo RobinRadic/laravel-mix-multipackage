@@ -1,0 +1,12 @@
+{
+    "name": "foo/addon",
+    "type": "library",
+    "require": {
+        "foo/core": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Foo\\Addon\\": "src/"
+        }
+    }
+}
